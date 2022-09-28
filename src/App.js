@@ -8,7 +8,7 @@ function App() {
     const MOVIE_API = "https://api.themoviedb.org/3/"
     const SEARCH_API = MOVIE_API + "search/movie"
     const DISCOVER_API = MOVIE_API + "discover/movie"
-    const API_KEY = "e588720192965bd88bddb2ca0700875d"
+    const API_KEY = "ba8861ad60c5de5331dfb156542460e8"
     const BACKDROP_PATH = "https://image.tmdb.org/t/p/w1280"
 
     const [playing, setPlaying] = useState(false)
