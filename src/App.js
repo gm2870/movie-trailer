@@ -26,10 +26,9 @@ function App() {
             event.preventDefault()
         }
 
-        const {data} = await axios.get(`${searchKey ? SEARCH_API : DISCOVER_API}`, {
+        const {data} = await axios.get(`${DISCOVER_API}`, {
             params: {
                 api_key: API_KEY,
-                query: searchKey
             }
         })
 
